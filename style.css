@@ -1,0 +1,24 @@
+
+body {
+    font-family: sans-serif;
+    background: #0a0f2c;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+#board {
+    display: grid;
+    grid-template-columns: repeat(5, 60px);
+    grid-template-rows: repeat(5, 60px);
+    gap: 5px;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.cell {
+    width: 60px;
+    height: 60px;
+    background: #1b1f3a;
+    border: 1px solid #555;
+}
+.cell.black { background: black; }
+.cell.white { background: white; }
